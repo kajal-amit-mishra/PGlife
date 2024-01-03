@@ -1,0 +1,58 @@
+.banner-container{
+    background-image: url("../img/bg.png");
+    padding: 160px 15px;
+    text-align: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+}
+.city-search{
+    max-width: 530px;
+    margin: auto;
+    position: relative;
+}
+.city-heading{
+    text-align: center;
+}
+.city-card-container{
+    text-align: center;
+    margin-top: 20px;
+}
+.city-card{
+    background-color: #ffffff;
+    padding:20px;
+    display: inline-block;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+    0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+.city-card:hover{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16),
+    0 2px 11px 0 rgba(0,0,0,0.12);
+}
+
+.city-img{
+    
+    width: 100px;
+    height: 100px;
+   
+    
+}
+.modal-header .close{
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+.close{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+.close:hover{
+    border: 1px solid gainsboro;
+}
+.input-group{
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+}
